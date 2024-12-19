@@ -1,0 +1,243 @@
+body {
+  background-color: black;
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar styles */
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px 0px 10px;
+}
+.spotify-logo {
+  padding-left: 18px;
+}
+#home-icon-container {
+  width: 48px;
+  height: 48px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1f1f1f;
+}
+
+#center-group {
+  display: flex;
+  margin-left: 180px;
+}
+
+#searchBar {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  width: 460px;
+  height: 48px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-inline: 8px;
+  background-color: #272727;
+}
+
+#search-input {
+  margin-left: 8px;
+  width: 84%;
+  height: 24px;
+  border: none;
+  background-color: #272727;
+  caret-color: white;
+  color: white;
+}
+
+#search-input:focus {
+  outline: none;
+}
+
+#search-input::placeholder {
+  color: #b3b3b3;
+  font-size: medium;
+}
+
+.line {
+  width: 1px;
+  height: 30px;
+  background-color: #7c7c7c;
+}
+
+.browse-img {
+  margin-left: 8px;
+}
+
+.primary-btn {
+  height: 48px;
+  width: 111px;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 9999px;
+  border: none;
+}
+
+.secondary-btn {
+  color: #989898;
+  width: 111px;
+  height: 48px;
+  background-color: black;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* navbar styles ended */
+/* main section styles started*/
+main {
+  display: flex;
+}
+/* main section styles ended */
+
+/* left sidebar styles */
+
+.left-sidebar {
+  width: 420px;
+  height: 666px;
+  box-sizing: border-box;
+  padding: 15px 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #121212;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.sidebar-header p {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 510;
+  color: #a7a7a7;
+}
+
+.left-sidebar .library-heading {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  justify-content: space-between;
+}
+
+.left-sidebar-card {
+  margin-top: 20px;
+  width: 100%;
+  height: 135px;
+  box-sizing: border-box;
+  padding: 4px 20px;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+}
+
+.left-sidebar-card h3 {
+  margin-top: 16px;
+  font-weight: 500;
+  color: white;
+  font-size: 16px;
+}
+
+.left-sidebar-card p {
+  margin-top: 14px;
+  font-size: 14px;
+  color: rgb(223, 223, 223);
+}
+
+.left-sidebar-card button {
+  margin-top: 20px;
+  padding: 6px 16px;
+  background-color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+.left-sidebar-links-wrapper {
+  padding: 0px 10px;
+  margin: 24px 0px;
+  margin-top: 80px;
+}
+.left-sidebar-links-wrapper a {
+  padding-bottom: 14px;
+  margin-right: 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: #9a9a9a;
+  font-size: 11px;
+}
+
+.left-sidebar-links-wrapper .white-link {
+  color: white;
+  font-size: 12px;
+}
+
+.left-sidebar-links-wrapper .white-link:hover {
+  text-decoration: underline;
+}
+
+.language-btn {
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+  padding: 6px 12px;
+  font-weight: 600;
+  color: white;
+  background-color: #121212;
+  border: 1.5px solid #545454;
+  border-radius: 24px;
+}
+
+.language-btn span img {
+  margin-right: 4px;
+}
+
+/* left sidebar styles ended */
+
+/* right section styles started*/
+
+.right-section {
+  width: 988px;
+  height: 666px;
+  padding: 10px 17px;
+  margin-left: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #202020;
+}
+
+.right-section .heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-section .heading-container h2 {
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+.right-section .heading-container a {
+  text-decoration: none;
+}
+
+/* right section styles ended */

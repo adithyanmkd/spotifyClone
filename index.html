@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav id="navbar">
+      <img
+        class="spotify-logo"
+        src="./assests/icons/spotify.svg"
+        alt="spotify logo"
+      />
+      <!-- search bar and home icon -->
+      <div id="center-group">
+        <a href="#">
+          <div id="home-icon-container">
+            <img
+              id="home-icon"
+              src="./assests/icons/home.svg"
+              alt="home icon"
+            />
+          </div>
+        </a>
+        <div id="searchBar">
+          <img
+            id="search-icon"
+            src="./assests/icons/search.svg"
+            alt="search icon"
+          />
+          <input
+            id="search-input"
+            type="text"
+            placeholder="What do you want to play?"
+          />
+          <div class="line"></div>
+          <img
+            class="browse-img"
+            src="./assests/icons/browse-icon.svg"
+            alt="browse svg"
+          />
+        </div>
+        <!-- search bar ended -->
+      </div>
+      <!-- sign up and login buttons -->
+      <div>
+        <button class="secondary-btn">Sign up</button>
+        <button class="primary-btn">Log in</button>
+      </div>
+      <!-- sign up and longin button ended -->
+    </nav>
+    <!-- navbar ended -->
+    <main>
+      <!--home page left sidebar -->
+      <section class="left-sidebar">
+        <div class="library-heading">
+          <div class="sidebar-header">
+            <img src="./assests/icons/library-icon.svg" alt="library icon" />
+            <p>Your Library</p>
+          </div>
+          <a href="#">
+            <img src="./assests/icons/add.svg" alt="add icon" />
+          </a>
+        </div>
+        <div class="left-sidebar-card">
+          <h3>Create your first playlist</h3>
+          <p>It's easy, we'll help you</p>
+          <button>Create playlist</button>
+        </div>
+        <div class="left-sidebar-card">
+          <h3>Let's find some podcasts to follow</h3>
+          <p>We'll keep you updated on new episodes</p>
+          <button>Browse podcasts</button>
+        </div>
+        <div class="left-sidebar-links-wrapper">
+          <a href="#">Leagal</a><a href="#">Safety & Privacy Center</a
+          ><a href="#">Privacy Policy</a><a href="#">Cookies</a
+          ><a href="#">About Ads</a><a href="#">Accessbility</a>
+          <br />
+          <a href="#" class="white-link">Cookies</a>
+        </div>
+        <button class="language-btn">
+          <span><img src="./assests/icons/globe.svg" alt="globe icon" /></span
+          >English
+        </button>
+      </section>
+      <!--home page left sidebar ended -->
+      <!-- home page right section started -->
+      <section class="right-section">
+        <div class="heading-container">
+          <h2>Popular artists</h2>
+          <a href="#">Show all</a>
+        </div>
+      </section>
+      <!-- home page right section ended -->
+    </main>
+  </body>
+</html>
