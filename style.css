@@ -125,7 +125,7 @@ main {
 .sidebar-header p {
   margin-left: 10px;
   font-size: 15px;
-  font-weight: 510;
+  font-weight: 500;
   color: #a7a7a7;
 }
 
@@ -215,18 +215,18 @@ main {
 .right-section {
   width: 988px;
   height: 666px;
-  padding: 10px 17px;
   margin-left: 10px;
   margin-top: 10px;
+  margin-right: 10px;
   box-sizing: border-box;
   border-radius: 10px;
-  background-color: #202020;
+  background-image: url("./assests/images/right-section-bg.svg");
 }
-
 .right-section .heading-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 17px;
 }
 
 .right-section .heading-container h2 {
@@ -236,8 +236,90 @@ main {
   color: white;
 }
 
+.right-section .heading-container h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .right-section .heading-container a {
   text-decoration: none;
+  color: #a7a7a7;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.right-section .heading-container a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+}
+
+.artist-card-container {
+  display: flex;
+  padding: 0px 4px;
+}
+
+.artist-card {
+  width: 164px;
+  height: 217px;
+  padding: 16px 12px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: linear-gradient(to top);
+}
+
+.artist-card:hover {
+  background: linear-gradient(
+    to top,
+    rgb(32, 32, 32),
+    rgb(26, 26, 26),
+    rgba(32, 32, 32, 0)
+  );
+}
+
+.artist-card img {
+  width: 139px;
+  height: 139px;
+  border-radius: 100%;
+}
+
+.artist-card h4 {
+  margin-top: 8px;
+  font-weight: 400;
+  color: white;
+}
+
+.artist-card p {
+  margin-top: 8px;
+  color: rgb(161, 161, 161);
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.popular-album-container {
+  padding: 0px 4px;
+}
+
+.popular-album-card {
+  width: 164px;
+  height: 240px;
+  padding: 14px 10px;
+  border-radius: 4px;
+}
+
+.popular-album-card:hover {
+  background-color: #1f1f1f;
+}
+
+.popular-album-card img {
+  width: 140px;
+  height: 140px;
+  border-radius: 5px;
+}
+
+.popular-album-card h4 {
+  margin-top: 4px;
+  font-weight: 400;
+  color: white;
 }
 
 /* right section styles ended */
