@@ -97,10 +97,13 @@ body {
 }
 
 /* navbar styles ended */
+
 /* main section styles started*/
+
 main {
   display: flex;
 }
+
 /* main section styles ended */
 
 /* left sidebar styles */
@@ -345,7 +348,7 @@ main {
   display: flex;
   margin: 0px 4px;
   margin-top: 12px;
-  margin-bottom: 65px;
+  margin-bottom: 24px;
 }
 
 .radio-list-card {
@@ -374,6 +377,7 @@ main {
 }
 
 footer {
+  margin-top: 60px;
   padding: 0px 32px;
   padding-top: 8px;
   padding-bottom: 40px;
