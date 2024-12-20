@@ -1,12 +1,12 @@
-body {
-  background-color: black;
-  font-family: sans-serif;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: sans-serif;
 }
 
 /* navbar styles */
@@ -110,7 +110,7 @@ main {
 
 .left-sidebar {
   width: 420px;
-  height: 666px;
+  height: 630px;
   box-sizing: border-box;
   padding: 15px 10px;
   margin-left: 10px;
@@ -172,6 +172,11 @@ main {
   font-weight: 600;
   border-radius: 20px;
 }
+
+.left-sidebar-card button:hover {
+  cursor: pointer;
+}
+
 .left-sidebar-links-wrapper {
   padding: 0px 10px;
   margin: 24px 0px;
@@ -217,17 +222,18 @@ main {
 
 .right-section {
   width: 988px;
-  height: 666px;
+  height: 630px;
   margin-left: 10px;
   margin-top: 10px;
   margin-right: 10px;
   overflow-x: auto;
   box-sizing: border-box;
   border-radius: 10px;
+  background-color: #121212;
 }
 
 .right-section .artist-card-bg {
-  background: linear-gradient(to bottom, #242424, #000000);
+  background: linear-gradient(to bottom, #242424, #121212);
 }
 
 .right-section .heading-container {
@@ -436,7 +442,7 @@ footer p {
 }
 
 .signUp-bottom-bar {
-  width: 100%;
+  width: 1430px;
   height: 66px;
   padding-left: 15px;
   padding-top: 11px;
@@ -447,6 +453,7 @@ footer p {
 
 .signUp-bottom-bar {
   margin-top: 10px;
+  margin-left: 10px;
   display: flex;
   justify-content: space-between;
 }
